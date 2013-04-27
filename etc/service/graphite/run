@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/setuidgid www-data /opt/graphite/bin/run-graphite-devel-server.py /opt/graphite

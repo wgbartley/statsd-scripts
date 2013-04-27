@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/setuidgid www-data /opt/graphite/bin/carbon-cache.py --debug start
